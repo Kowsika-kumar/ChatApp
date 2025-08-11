@@ -1,22 +1,20 @@
-This project is a Java-based recommendation engine built using Apache Mahout.
-It uses User-Based Collaborative Filtering with Pearson Correlation Similarity to recommend items to users based on historical rating data.
+ Java Multithreaded Chat Application
+This is a client-server chat application built using Java Sockets and Multithreading, allowing multiple clients to communicate with each other in real time via a central server.
 
-Features
-Reads user-item ratings from a CSV file.
+🚀 Features
+Supports multiple clients connected to a single server.
 
-Calculates user similarity using Pearson correlation.
+Real-time message broadcasting to all connected clients.
 
-Finds the nearest N neighbors for each user.
+Built with Java Socket Programming.
 
-Generates top-N personalized recommendations.
+Uses Multithreading to handle concurrent client communication.
 
-Fully implemented in Java using Apache Mahout.
+Simple text-based interface.
 
-Technologies Used
-Java (Core logic)
+🛠️ Technologies Used
+Java (Core programming language)
 
-Apache Mahout (Recommendation algorithms)
+Java Sockets (Networking)
 
-Maven (Dependency management)
-
-CSV File Data Model (File-based dataset)
+Multithreading (Concurrent client handling)
